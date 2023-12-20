@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Setup
 
-1 - Renomear o arquivo .env.example para .env
-2 - Abra o arquivo .env e configure conforme o ambiente (produção ou desenvolvimento).
+ 1. Renomear o arquivo .env.example para .env
+ 2.  Abra o arquivo .env e configure conforme o ambiente (produção ou desenvolvimento).
 
 ## Available Scripts
 
