@@ -1,0 +1,34 @@
+{
+    "title": "Usuários",
+    "Admin": "ADM",
+    "Seller": "Vendedor",
+    "Customer": "Cliente",
+    "Active": "Ativo",
+    "Deactivated": "Desativado",
+    "Blocked": "Bloqueado",
+    "add": {
+        "title": "Cadastro de Usuário"
+    },
+    "table": {
+        "name": "Nome",
+        "date": "DATA CADASTRO",
+        "email": "EMAIL",
+        "profile": "Perfil de Acesso",
+        "status": "ATIVO",
+        "header": {
+            "name": "Nome",
+            "email": "EMAIL",
+            "roles": "Perfil de Acesso",
+            "status": "Status"
+        },
+        "activate": "Ativar"
+    },
+    "formAdd": {
+        "name": "Nome",
+        "email": "Email",
+        "profile": "Perfil de Acesso",
+        "profilePlaceholder": "[Escolha o perfil de Acesso]",
+        "submit": "Cadastrar",        
+        "password": "Senha"
+    }
+}

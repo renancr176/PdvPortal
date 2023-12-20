@@ -1,0 +1,42 @@
+{
+    "home": "Home",
+    "catalogs": {
+        "index": "Catálogos",
+        "detail": "Catálogo"
+    },
+    "cart": "Carrinho",
+    "checkout": "Finalizar",
+    "order": {
+        "detail": "Detalhes do pedido"
+    },
+    "document": "Document",
+    "account": {
+        "index": "Minha conta",
+        "edit": "Editar conta",
+        "orders": "Meus pedidos",
+        "orderDetail": "Detalhes do Pedido",
+        "orderInvoice": "Nota Fiscal",
+        "consumption": "Histórico de consumo"
+    }, 
+    "admin": {
+        "index": "Admin",
+        "orders": "Pedidos",
+        "products": "Produtos",
+        "productAdd": "Adicionar Produto",
+        "productEdit": "Alterar Produto",
+        "payments": "Pagamentos",
+        "paymentsAdd": "Adicionar Forma de Pagamento",
+        "paymentsEdit": "Alterar Forma de Pagamento",
+        "users": "Usuários",
+        "userProfiles": "Perfis de Usuários",
+        "customers": "Clientes",
+        "customerAdd": "Adicionar Cliente",
+        "customerEdit": "Alterar Cliente",
+        "reports": {
+            "invoices": "Relatório de Faturas e Históricos"
+        },
+        "catalogs": "Catalogos",
+        "catalogAdd": "Adicionar catalogo",
+        "catalogEdit": "Alterar catalogo"
+    } 
+}

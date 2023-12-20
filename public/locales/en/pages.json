@@ -1,0 +1,40 @@
+{
+    "home": "Home",
+    "catalogs": {
+        "index": "Catalogs",
+        "detail": "Catalog"
+    },
+    "cart": "Cart",
+    "checkout": "Checkout",
+    "order": { 
+        "detail": "Order" 
+    },
+    "document": "Document",
+    "account": {
+        "index": "Account",
+        "edit": "Edit Account",
+        "orders": "My Orders",
+        "orderDetail": "Order",
+        "orderInvoice": "Invoice",
+        "consumption": "Consumption history"
+    },
+    "admin": {
+        "index": "Admin",
+        "orders": "Orders",
+        "products": "Products",
+        "productAdd": "Add Product",
+        "productEdit": "Edit Product",
+        "payments": "Payments",
+        "users": "Users",
+        "userProfiles": "Users Profiles",
+        "customers": "Customers",
+        "customerAdd": "Add Customer",
+        "customerEdit": "Edit Customer",
+        "reports": {
+            "invoices": "Invoice report"
+        },
+        "catalogs": "Catalogs",
+        "catalogAdd": "Add Catalog",
+        "catalogEdit": "Edit Catalog"
+    }
+}

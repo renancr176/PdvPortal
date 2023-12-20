@@ -1,0 +1,34 @@
+{
+    "title": "Users",
+    "Admin": "Admin",
+    "Seller": "Seller",
+    "Customer": "Customer",
+    "Active": "Active",
+    "Deactivated": "Deactivated",
+    "Blocked": "Blocked",
+    "add": {
+        "title": "User Registration"
+    },
+    "table": {
+        "name": "Name",
+        "date": "Registration Date",
+        "email": "Email",
+        "profile": "Access Profile",
+        "status": "Active",
+        "header": {
+            "name": "Name",
+            "email": "Email",
+            "roles": "Access Profile",
+            "status": "Status"
+        },
+        "activate": "Activate"
+    },
+    "formAdd": {
+        "name": "Name",
+        "email": "Email",
+        "profile": "Access Profile",
+        "profilePlaceholder": "[Choose Access Profile]",
+        "submit": "Register",
+        "password": "Password"
+    }
+}

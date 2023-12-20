@@ -1,0 +1,331 @@
+.offersBg {
+    padding-bottom: 4rem;
+}
+
+.zipInput {
+    display: inline-block;
+}
+
+.howItWorksSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 5rem;
+}
+
+.homeCarrousel {
+    width: 96vw;
+    height: auto;
+}
+
+.offers {
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+
+.howItWorksSection>h3,
+.offers>h3 {
+    color: var(--tcText4);
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    font-family: var(--tc-font2);
+    text-align: center;
+}
+
+.offersSubtext {
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.phoneBusinessPlanHome>div {
+    display: grid;
+    grid-template-columns: repeat(5, 11rem);
+    gap: 3rem;
+    width: fit-content;
+    margin: 4rem auto;
+}
+
+.phoneBusinessPlanHome>h3 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.howItWorksCard>img {
+    margin: 20px 0;
+    height: 80px;
+    width: auto;
+}
+
+.phoneBusinessPlanPC{
+    max-width: 100px;
+}
+
+.howItWorksSection>div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+}
+
+.howItWorksCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.35rem;
+    font-weight: 400;
+    max-width: 300px;
+    min-width: 250px;
+    white-space: pre-wrap;
+}
+
+.howItWorksCard>p {
+    margin: 0;
+}
+
+.mobilitySectionComponentBACKGROUND {
+    width: 100%;
+    height: 550px;
+    background-color: var(--tc-dark-blue);
+    padding: 4rem 0.5rem 4rem 4rem;
+}
+
+.mobilitySectionComponent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobilitySectionComponentTITLE {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.mobilitySectionComponentDESCRIPTION {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mobilitySectionComponentDESCRIPTION p {
+    max-width: 250px;
+    font-size: 20px;
+    text-align: start;
+    line-height: 35px;
+}
+
+.mobilitySectionComponentICONINFO {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0px 10px;
+}
+
+.mobilitySectionComponentICONINFO label {
+    font-size: 18px;
+    margin: 15px 15px;
+    color: white;
+}
+
+.mobilitySectionComponentIMG {
+    margin: -220px 0 0 0;
+    max-width: 350px;
+}
+
+.loading {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--tcText3);
+    font-size: 5rem;
+}
+
+@media(max-width: 1200px) {
+    .howItWorksSection>div{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 1047px) {
+
+    .howItWorksSection>div,
+    .phoneBusinessPlanHome>div {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .mobilitySectionComponentICONINFO label {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .mobilitySectionComponentIMG {
+        margin: -213px 0 0 0;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .howItWorksSection>div,
+    .phoneBusinessPlanHome>div {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .mobilitySectionComponentDESCRIPTION p {
+        max-width: 250px;
+        min-width: 200px;
+        font-size: 20px;
+        text-align: start;
+        line-height: 35px;
+    }
+
+    .mobilitySectionComponentIMG {
+        margin: -220px 0 0 0;
+        max-width: 350px;
+    }
+
+}
+
+@media(max-width:974px) {
+    .mobilitySectionComponentIMG {
+        margin: -220px 0 0 0;
+        max-width: 350px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 912px) {
+    .mobilitySectionComponentIMG {
+        margin: -102px 0 0 0;
+        max-width: 287px;
+    }
+
+    .mobilitySectionComponentICONINFO {
+        padding: 0;
+    }
+}
+
+@media(max-width: 905px) {
+    .mobilitySectionComponentIMG {
+        max-width: 210px;
+        margin: 28px 0 0 0;
+    }
+}
+
+@media(max-width: 820px) {
+    .mobilitySectionComponentIMG {
+        margin: -19px 0 0 0;
+        max-width: 210px;
+    }
+
+    .mobilitySectionComponentICONINFO {
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobilitySectionComponentBACKGROUND {
+        height: 500px;
+    }
+
+    .howItWorksSection>h3,
+    .phoneBusinessPlanHome>h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .howItWorksSection>div,
+    .phoneBusinessPlanHome>div {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .phoneBusinessPlanHome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mobilitySectionComponentBACKGROUND {
+        height: 620px;
+    }
+
+    .mobilitySectionComponent {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        align-items: flex-start;
+    }
+
+    .mobilitySectionComponentIMG {
+        display: none;
+    }
+
+    .mobilitySectionComponentICONINFO div {
+        margin-left: -10%;
+        margin-right: -10%;
+    }
+
+    .mobilitySectionComponentDESCRIPTION p {
+        min-width: 250px;
+        margin: 20px 0;
+    }
+
+    .mobilitySectionComponentICONINFO label {
+        padding: 0;
+    }
+}
+
+@media(max-width: 1024px) {
+    .mobilitySectionComponentICONINFO {
+        margin: 0 25px;
+    }
+}
+
+@media(max-width: 412px) {
+    .mobilitySectionComponentBACKGROUND {
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .mobilitySectionComponentICONINFO {
+        margin: 0 26px;
+    }
+
+    .mobilitySectionComponentBACKGROUND {
+        width: 100%;
+    }
+
+}
+
+@media(max-width:375px) {
+    .mobilitySectionComponentBACKGROUND {
+        width: 100%;
+    }
+}
+
+@media(max-width:280px) {
+    .mobilitySectionComponentICONINFO {
+        margin: 0 25px;
+    }
+
+    .howItWorksSection>h3,
+    .phoneBusinessPlanHome>h3 {
+        font-size: 2rem;
+    }
+}

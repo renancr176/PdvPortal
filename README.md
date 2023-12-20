@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setup
+
+1 - Renomear o arquivo .env.example para .env
+2 - Abra o arquivo .env e configure conforme o ambiente (produção ou desenvolvimento).
+
 ## Available Scripts
 
 In the project directory, you can run:
